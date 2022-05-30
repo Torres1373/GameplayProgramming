@@ -916,3 +916,399 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.30-10.05.53:566][644]LogSavePackage: Moving '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Saved/FirstPersonCharacter934D9EBD4585D451A3B62289FE530133.tmp' to '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
 [2022.05.30-10.05.53:587][644]AssetCheck: New page: Asset Save: FirstPersonCharacter
 [2022.05.30-10.05.53:587][644]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.05.30-10.06.49:919][950]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.30-10.06.49:925][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.30-10.06.49:925][950]PIE: New page: PIE session: FirstPersonExampleMap (30 may. 2022 14:06:49)
+[2022.05.30-10.06.49:926][950]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.05.30-10.06.49:928][950]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.30-10.06.49:928][950]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.05.30-10.06.49:941][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013526s)
+[2022.05.30-10.06.49:943][950]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.05.30-10.06.49:943][950]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2022.05.30-10.06.49:943][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015287s)
+[2022.05.30-10.06.49:993][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.05.30-10.06.49:994][950]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.30-10.06.49:995][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.30-10.06.49:995][950]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.30-10.06.49:995][950]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.30-10.06.49:995][950]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.30-10.06.49:995][950]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.30-10.06.49:997][950]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.30-10.06.49:997][950]LogAudioMixer: Display: 1: FrontRight
+[2022.05.30-10.06.50:013][950]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2022.05.30-10.06.50:014][950]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.30-10.06.50:014][950]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.30-10.06.50:014][950]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.30-10.06.50:014][950]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.30-10.06.50:014][950]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.30-10.06.50:014][950]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.30-10.06.50:015][950]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.30-10.06.50:016][950]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.30-10.06.50:016][950]LogInit: FAudioDevice initialized.
+[2022.05.30-10.06.50:016][950]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2022.05.30-10.06.50:036][950]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.05.30-10.06.50:038][950]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.06.50:038][950]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.06.50:039][950]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.05.30-12.06.50
+[2022.05.30-10.06.50:040][950]LogWorld: Bringing up level for play took: 0.003408
+[2022.05.30-10.06.50:040][950]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.05.30-10.06.50:043][950]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.05.30-10.06.50:045][950]PIE: Server logged in
+[2022.05.30-10.06.50:046][950]PIE: Play in editor total start time 0,122 seconds.
+[2022.05.30-10.06.52:474][150]LogScript: Warning: Attempted to access Projectile_C_0 via property K2Node_Event_Other, but Projectile_C_0 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.06.52:474][150]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_0 via property K2Node_Event_Other, but Projectile_C_0 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.06.53:793][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.06.53:793][293]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.05.30-10.06.53:793][293]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-10.06.53:794][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.06.53:805][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.30-10.06.53:809][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.06.53:828][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.30-10.06.53:832][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.06.53:833][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.06.53:836][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.06.53:858][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.05.30-10.06.53:983][293]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.05.30-10.06.53:987][294]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.05.30-10.06.55:444][414]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.06.55:460][414]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.06.59:721][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.05.30-10.07.02:029][806]LogSlate: Window 'Save Content' being destroyed
+[2022.05.30-10.07.02:082][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.30-10.07.02:102][806]LogSavePackage: Moving '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Saved/FirstPersonExampleMapF840176D4218684917665998C45AFBBD.tmp' to '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.05.30-10.07.02:108][806]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.045
+[2022.05.30-10.07.02:156][806]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/PlayTest/PlayTestMap.PlayTestMap
+[2022.05.30-10.07.02:157][806]Cmd: MAP LOAD FILE="../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Content/Maps/PlayTest/PlayTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.30-10.07.02:157][806]LightingResults: New page: Lighting Build
+[2022.05.30-10.07.02:157][806]LoadErrors: New page: Loading map: PlayTestMap.umap
+[2022.05.30-10.07.02:157][806]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EnemyBP_2.SpawnPoint)
+[2022.05.30-10.07.02:188][806]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-10.07.02:188][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.07.02:188][806]MapCheck: New page: Map Check
+[2022.05.30-10.07.02:188][806]LightingResults: New page: Lighting Build
+[2022.05.30-10.07.02:206][806]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.30-10.07.02:211][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.05.30-10.07.02:212][806]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlayTestMap'.
+[2022.05.30-10.07.02:215][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:216][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.02:216][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:216][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:219][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.02:220][806]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.02:221][806]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.30-10.07.02:221][806]LogAIModule: Creating AISystem for world PlayTestMap
+[2022.05.30-10.07.02:245][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.05.30-10.07.02:249][806]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.30-10.07.02:249][806]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,119ms to complete.
+[2022.05.30-10.07.02:249][806]LogFileHelpers: Loading map 'PlayTestMap' took 0.092
+[2022.05.30-10.07.02:269][806]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.05.30-10.07.02:269][806]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.05.30-10.07.02:332][806]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint)
+[2022.05.30-10.07.02:332][806]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint)
+[2022.05.30-10.07.05:059][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.30-10.07.05:065][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.30-10.07.05:065][ 50]PIE: New page: PIE session: PlayTestMap (30 may. 2022 14:07:05)
+[2022.05.30-10.07.05:076][ 50]LogPlayLevel: Creating play world package: /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.07.05:081][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004717s)
+[2022.05.30-10.07.05:082][ 50]LogAIModule: Creating AISystem for world PlayTestMap
+[2022.05.30-10.07.05:082][ 50]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2022.05.30-10.07.05:082][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlayTest/PlayTestMap.PlayTestMap to /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap (0.005989s)
+[2022.05.30-10.07.05:103][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.05.30-10.07.05:107][ 50]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.30-10.07.05:107][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.30-10.07.05:107][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.30-10.07.05:107][ 50]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.30-10.07.05:107][ 50]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.30-10.07.05:109][ 50]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.30-10.07.05:109][ 50]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.30-10.07.05:110][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.30-10.07.05:110][ 50]LogAudioMixer: Display: 1: FrontRight
+[2022.05.30-10.07.05:128][ 50]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2022.05.30-10.07.05:128][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.30-10.07.05:128][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.30-10.07.05:128][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.30-10.07.05:129][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.30-10.07.05:129][ 50]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.30-10.07.05:129][ 50]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.30-10.07.05:130][ 50]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.30-10.07.05:130][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.30-10.07.05:130][ 50]LogInit: FAudioDevice initialized.
+[2022.05.30-10.07.05:130][ 50]LogAudio: Display: Audio Device (ID: 3) registered with world 'PlayTestMap'.
+[2022.05.30-10.07.05:142][ 50]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.05.30-10.07.05:145][ 50]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.05:145][ 50]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.05:145][ 50]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.05:145][ 50]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.05:146][ 50]LogWorld: Bringing World /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap up for play (max tick rate 0) at 2022.05.30-12.07.05
+[2022.05.30-10.07.05:146][ 50]LogWorld: Bringing up level for play took: 0.003121
+[2022.05.30-10.07.05:147][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.30-10.07.05:153][ 50]PIE: Server logged in
+[2022.05.30-10.07.05:153][ 50]PIE: Play in editor total start time 0,088 seconds.
+[2022.05.30-10.07.26:351][505]LogScript: Warning: Attempted to access Projectile_C_3 via property K2Node_Event_Other, but Projectile_C_3 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.07.26:351][505]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_3 via property K2Node_Event_Other, but Projectile_C_3 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.07.28:273][716]LogScript: Warning: Attempted to access Projectile_C_4 via property K2Node_Event_Other, but Projectile_C_4 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.07.28:273][716]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_4 via property K2Node_Event_Other, but Projectile_C_4 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.07.30:207][932]LogScript: Warning: Attempted to access Projectile_C_5 via property K2Node_Event_Other, but Projectile_C_5 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.07.30:207][932]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_5 via property K2Node_Event_Other, but Projectile_C_5 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.07.32:197][156]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	EnemyBP_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00F9
+[2022.05.30-10.07.32:197][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character". Blueprint:  EnemyBP Function:  Execute Ubergraph Enemy BP Graph:  EventGraph Node:  SpawnActor Projectile
+[2022.05.30-10.07.32:198][156]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	EnemyBP_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:021C
+[2022.05.30-10.07.32:198][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character". Blueprint:  EnemyBP Function:  Execute Ubergraph Enemy BP Graph:  EventGraph Node:  SpawnActor Projectile
+[2022.05.30-10.07.43:073][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.07.43:073][322]LogWorld: BeginTearingDown for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.07.43:074][322]LogWorld: UWorld::CleanupWorld for PlayTestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-10.07.43:074][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.07.43:082][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.30-10.07.43:088][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.07.43:107][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.07.43:107][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.07.43:108][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.07.43:116][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.05.30-10.07.43:258][323]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.30-10.07.44:520][418]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.07.44:538][418]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.07.47:225][632]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.30-10.07.47:230][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.30-10.07.47:230][632]PIE: New page: PIE session: PlayTestMap (30 may. 2022 14:07:47)
+[2022.05.30-10.07.47:231][632]LogPlayLevel: Creating play world package: /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.07.47:234][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003333s)
+[2022.05.30-10.07.47:235][632]LogAIModule: Creating AISystem for world PlayTestMap
+[2022.05.30-10.07.47:235][632]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2022.05.30-10.07.47:235][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlayTest/PlayTestMap.PlayTestMap to /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap (0.004553s)
+[2022.05.30-10.07.47:257][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.05.30-10.07.47:258][632]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.30-10.07.47:258][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.30-10.07.47:258][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.30-10.07.47:258][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.30-10.07.47:258][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.30-10.07.47:258][632]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.30-10.07.47:260][632]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.30-10.07.47:260][632]LogAudioMixer: Display: 1: FrontRight
+[2022.05.30-10.07.47:277][632]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2022.05.30-10.07.47:278][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.30-10.07.47:278][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.30-10.07.47:278][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.30-10.07.47:278][632]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.30-10.07.47:278][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.30-10.07.47:278][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.30-10.07.47:280][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.30-10.07.47:280][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.30-10.07.47:280][632]LogInit: FAudioDevice initialized.
+[2022.05.30-10.07.47:280][632]LogAudio: Display: Audio Device (ID: 4) registered with world 'PlayTestMap'.
+[2022.05.30-10.07.47:287][632]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.05.30-10.07.47:290][632]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.47:290][632]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.07.47:290][632]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.07.47:290][632]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.07.47:290][632]LogWorld: Bringing World /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap up for play (max tick rate 0) at 2022.05.30-12.07.47
+[2022.05.30-10.07.47:291][632]LogWorld: Bringing up level for play took: 0.003096
+[2022.05.30-10.07.47:291][632]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.05.30-10.07.47:297][632]PIE: Server logged in
+[2022.05.30-10.07.47:298][632]PIE: Play in editor total start time 0,068 seconds.
+[2022.05.30-10.08.09:890][ 46]LogScript: Warning: Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.08.09:890][ 46]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.08.11:712][246]LogScript: Warning: Attempted to access Projectile_C_3 via property K2Node_Event_Other, but Projectile_C_3 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.08.11:712][246]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_3 via property K2Node_Event_Other, but Projectile_C_3 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.08.20:218][160]LogScript: Warning: Attempted to access Projectile_C_4 via property K2Node_Event_Other, but Projectile_C_4 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.08.20:219][160]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_4 via property K2Node_Event_Other, but Projectile_C_4 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.08.24:395][601]LogScript: Warning: Attempted to access Projectile_C_6 via property K2Node_Event_Other, but Projectile_C_6 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.08.24:395][601]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_6 via property K2Node_Event_Other, but Projectile_C_6 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.08.26:160][778]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	EnemyBP_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00F9
+[2022.05.30-10.08.26:161][778]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character". Blueprint:  EnemyBP Function:  Execute Ubergraph Enemy BP Graph:  EventGraph Node:  SpawnActor Projectile
+[2022.05.30-10.08.26:161][778]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	EnemyBP_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:021C
+[2022.05.30-10.08.26:161][778]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character". Blueprint:  EnemyBP Function:  Execute Ubergraph Enemy BP Graph:  EventGraph Node:  SpawnActor Projectile
+[2022.05.30-10.08.39:744][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.08.39:744][144]LogWorld: BeginTearingDown for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.08.39:745][144]LogWorld: UWorld::CleanupWorld for PlayTestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-10.08.39:745][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.08.39:758][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.30-10.08.39:763][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.08.39:782][144]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.30-10.08.39:782][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.08.39:783][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.08.39:787][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.08.39:791][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.05.30-10.08.39:926][145]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.05.30-10.08.41:165][232]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.08.41:184][232]LogSlate: Window 'Message Log' being destroyed
+[2022.05.30-10.08.45:372][596]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.30-10.08.45:377][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.30-10.08.45:377][596]PIE: New page: PIE session: PlayTestMap (30 may. 2022 14:08:45)
+[2022.05.30-10.08.45:408][596]LogPlayLevel: Creating play world package: /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.08.45:412][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2022.05.30-10.08.45:412][596]LogAIModule: Creating AISystem for world PlayTestMap
+[2022.05.30-10.08.45:413][596]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2022.05.30-10.08.45:413][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlayTest/PlayTestMap.PlayTestMap to /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap (0.005422s)
+[2022.05.30-10.08.45:434][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.05.30-10.08.45:434][596]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.30-10.08.45:434][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.30-10.08.45:434][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.30-10.08.45:435][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.30-10.08.45:435][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.30-10.08.45:435][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.30-10.08.45:435][596]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.30-10.08.45:437][596]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.30-10.08.45:437][596]LogAudioMixer: Display: 1: FrontRight
+[2022.05.30-10.08.45:454][596]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2022.05.30-10.08.45:454][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.30-10.08.45:454][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.30-10.08.45:454][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.30-10.08.45:455][596]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.30-10.08.45:455][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.30-10.08.45:455][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.30-10.08.45:457][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.30-10.08.45:457][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.30-10.08.45:457][596]LogInit: FAudioDevice initialized.
+[2022.05.30-10.08.45:457][596]LogAudio: Display: Audio Device (ID: 5) registered with world 'PlayTestMap'.
+[2022.05.30-10.08.45:468][596]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.05.30-10.08.45:471][596]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.08.45:471][596]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.08.45:471][596]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.08.45:471][596]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.08.45:472][596]LogWorld: Bringing World /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap up for play (max tick rate 0) at 2022.05.30-12.08.45
+[2022.05.30-10.08.45:472][596]LogWorld: Bringing up level for play took: 0.003114
+[2022.05.30-10.08.45:473][596]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.05.30-10.08.45:478][596]PIE: Server logged in
+[2022.05.30-10.08.45:479][596]PIE: Play in editor total start time 0,103 seconds.
+[2022.05.30-10.08.59:665][ 63]LogScript: Warning: Attempted to access Projectile_C_0 via property K2Node_Event_Other, but Projectile_C_0 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.08.59:665][ 63]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_0 via property K2Node_Event_Other, but Projectile_C_0 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.09.08:238][924]LogScript: Warning: Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill
+	FirstPersonCharacter_C /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap.PlayTestMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A7A
+[2022.05.30-10.09.08:238][924]PIE: Error: Blueprint Runtime Error: "Attempted to access Projectile_C_2 via property K2Node_Event_Other, but Projectile_C_2 is pending kill". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2022.05.30-10.09.09:611][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.09.09:611][ 63]LogWorld: BeginTearingDown for /Game/Maps/PlayTest/UEDPIE_0_PlayTestMap
+[2022.05.30-10.09.09:611][ 63]LogWorld: UWorld::CleanupWorld for PlayTestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-10.09.09:611][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.09.09:623][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.30-10.09.09:628][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-10.09.09:648][ 63]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.30-10.09.09:648][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.09.09:649][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.30-10.09.09:652][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-10.09.09:656][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.05.30-10.09.09:790][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.05.30-10.09.14:997][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/EnemyBP.EnemyBP
+[2022.05.30-10.09.15:406][471]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.15:406][471]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:108][128]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.05.30-10.09.51:196][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.05.30-10.09.51:197][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint)
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:200][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:201][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:201][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:201][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint)
+[2022.05.30-10.09.51:202][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:202][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:202][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:202][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:202][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:203][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:203][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:203][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:207][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:208][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:208][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:242][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:242][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:243][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:243][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:243][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:243][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:243][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:244][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint' 
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:245][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:246][128]LogPhysics: Warning: Scale for /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:246][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint' 
+[2022.05.30-10.09.51:249][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:249][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:250][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:250][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:250][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:250][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:251][128]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2022.05.30-10.09.51:251][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.EnemyBP_C_0.SpawnPoint' 
+[2022.05.30-10.09.51:272][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: None)
+[2022.05.30-10.09.51:272][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: None)
+[2022.05.30-10.09.51:272][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP_2.SpawnPoint)
+[2022.05.30-10.09.51:272][128]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/PlayTest/PlayTestMap.PlayTestMap:PersistentLevel.EnemyBP2_5.SpawnPoint)
+[2022.05.30-10.09.51:966][158]LogSavePackage: Moving '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Saved/FirstPersonCharacterDC334ED14EED68A9B53632A434CA9545.tmp' to '../../../../../../Users/ivcha/Documents/GitHub/GameplayProgramming/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.05.30-10.09.51:985][158]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.05.30-10.09.51:985][158]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
